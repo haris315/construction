@@ -1,0 +1,631 @@
+html,
+body{
+  height: 100%;
+  font-family: Roboto,sans-serif;
+}
+
+.fixed-top-header {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+#about-us-dropdown {
+    color: white !important;
+}
+
+.header-text {
+    color: #fff;
+}
+
+.social-icon img {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.bodyBg{
+   background: #F8F7F8;
+}
+
+p{
+    line-height:1.8;
+    color:#585858;
+}
+
+header,
+.view {
+  height: 100%;
+}
+
+.background{
+    background-image: url('/banner.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    font-size: 0.75rem;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 0.75rem;
+}
+
+::placeholder {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 740px){
+    
+    html,body,header,.view {
+        height: 100%;
+    }
+  
+  .file-upload{
+        height:auto !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,body,header,.view {
+        height: 600px;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+#admin-dashboard {
+    background-color: black !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    }
+    
+    
+}
+
+.wow h6 {
+  line-height: 1.7;
+  margin-top:400px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3, h6{
+    font-weight: normal !important;
+}
+
+h6{
+    text-transform: uppercase;
+}
+
+.navbar{
+    box-shadow: unset;
+}
+
+.nav-container{
+    background: #fff;
+}
+
+.fixed-top-header{
+    position: absolute;
+    top:50px;
+}
+
+.headerNav li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    border-right: 1px solid #555;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #555 !important;
+    margin-right: 10px;
+    padding-right: 26px !important
+}
+
+.card{
+    box-shadow: unset;
+    background: #F8F7F8 !important;
+}
+
+.card-header{
+    background-color: #fff;
+    border-bottom: unset;
+    padding: 10px;
+}
+
+.tab-content{
+    padding: 0!important;
+    margin-top: 20px;
+}
+
+.card-header-tabs{
+    margin-left: 15px !important;
+    margin-bottom: -10px !important;
+    
+}
+
+.nav-tabs .nav-item{
+    /* margin-right: 12px; */
+}
+
+.card-header-tabs a{
+    color:#000 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+     margin-right:5px;
+}
+
+.nav-tabs .nav-link.active{
+    border:unset;
+    border-bottom: 4px solid red;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.p-3{
+    padding: 0!important;
+}
+
+.top-margin{
+  margin-top: 20px;
+}
+
+.padding-div{
+    padding: 20px 20px !important;
+    background: #fff;
+}
+
+.box{
+    padding: 0 10px 0 0;
+}
+
+.inner{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.inner a{
+    color:red;
+    font-weight: 600;
+}
+
+footer{
+    background: #fff;
+    padding: 20px;
+}
+
+.footerLogo img{
+    margin-top:50px;
+}
+
+.footer-list a {
+    color: black !important
+}
+
+.footerNav{
+    margin-top: 25px;
+}
+
+
+.footerNav li a{
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000 !important;
+ 
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+
+}
+
+
+.navBorder{
+    border-bottom:1px solid rgba(0,0,0,.1) !important;
+    padding-bottom: 30px;
+    width:30%;
+}
+
+
+.fa-facebook, .fa-linkedin{
+    color:#A1A1A1;
+}
+
+.copyRight{
+    color:#707070;
+    margin-top: 20px;
+}
+
+
+.col-md-12 .copyRight{
+    float:right;
+}
+
+.copyRight span{
+    text-align:left !important;
+}
+
+
+@media (max-width: 786px) {
+    .list-unstyled{
+        text-align:center !important;
+    }
+    .footerLogo{
+        text-align:center !important;
+    }
+
+    .col-md-12 .copyRight{
+        text-align:center !important;
+    }
+    
+    .content {
+        margin-bottom: 30px;
+    }    
+
+
+    .background{
+        /*
+        background-image: url('http://via.placeholder.com/800x400');
+        background-position: top center;
+        background-size: unset;
+        */
+        
+    }
+    
+    .navBarContainer {
+         /* width: 24%;  */
+    }
+}
+
+.list-unstyled a{
+    color:#000;
+    margin-right:10px;
+}
+
+
+/* Page 2 css */
+
+.pageTwo-nav{
+    background: #fff !important;
+}
+
+.two-heding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.two-heding h3{
+   color:#000; 
+}
+
+.two-heding h6{
+    color:#7BDFC0;
+}
+
+.content {
+    text-align: center;
+    padding:20px;
+    height: 150px;
+}
+
+.content1{
+    background: #C9141C;
+}
+
+.content1 h6{
+    color:#fff;
+    font-size: 24px;
+    padding-top: 24px;
+    text-transform:unset !important;
+}
+
+.content1 p{
+    color:#fff;
+}
+
+.content2{
+    background: #3BD0A2;
+}
+
+.content2 h6{
+    color:#fff;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.content2 p{
+    color:#fff;
+}
+
+.col-md-4 .text-center{
+    font-weight:500;
+    font-size:16px;
+    margin-top: 15px;
+}
+
+.portfolio .card{    
+    background: #fff !important;
+}
+
+.tab-content .row{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.tab-content h6{
+    text-align: left;
+    margin-top:15px;
+    text-transform: none;
+}
+
+.btn-block{
+    background-color: #F7F7F7;
+    color: #212529;
+}
+
+.contactUs-text-container{
+    margin-top:50px;
+}
+
+.contactUs-text h3{
+    margin-top: 30px;
+    font-weight: normal!important;
+}
+
+.contactUs-text p{
+    color: red;
+    font-weight: normal;
+}
+
+.btn-md{
+    background-color: #C9141C!important; 
+}
+
+.file-upload {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    padding: 40px 10px;
+    text-align: center;
+    color:#CACACA;
+    background:#F7F7F7 !important;
+}
+
+.file-upload , .btn-danger{
+     border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    
+}
+
+
+.card-text p{
+    color:#CACACA;
+    font-size:14px;
+    font-weight:normal !important;
+}
+
+.card-text p span{
+    color:red;
+    font-size:14px;
+    font-weight:600 !important;
+}
+
+.file-upload-wrapper .card.card-body input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5
+}
+  
+.file-upload-wrapper .card.card-body .file-upload-message p {
+    margin: 5px 0 0
+}
+
+.file-upload-wrapper .card.card-body .btn.btn-sm.btn-danger {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 7;
+    top: 10px;
+    right: 10px;
+}
+
+.file-upload-wrapper .card.card-body.touch-fallback {
+    height: auto !important
+}
+
+  
+.file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-render .file-upload-font-file::before {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-render img {
+    position: relative;
+   
+}
+
+.file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-infos {
+    position: relative;
+    opacity: 1;
+}
+
+
+.file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-infos .file-upload-infos-inner {
+    position: relative;
+    top: 0;
+    padding: 5px 90px 5px 0
+}
+
+.file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-infos .file-upload-infos-inner p {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #777;
+    text-align: left;
+    line-height: 25px
+}
+
+  
+.file-upload-wrapper .card.card-body.touch-fallback .btn.btn-sm.btn-danger {
+    top: auto;
+    bottom: 23px;
+    opacity: 1
+}
+
+.form-control:focus{
+    border-color: #EEEEEE;
+    box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
+        
+}
+
+
+.aboutus{
+    margin-top:20px;
+    margin-bottom:20px;
+ }
+
+.tex-box{
+    justify-content: center;
+    align-self: center;
+}
+
+.para{
+    line-height:2.0;
+}
+
+.two-heding h3, .two-heding h6, .inner  h3,  .inner  h6, .inner a{
+    font-weight:normal !important;;
+}
+
+.font-weight-bold span, .our-pro span{
+    color:red;
+}
+.our-pro span
+
+.contactInfo p{
+   color:#585858; 
+}
+
+.contactInfo a{
+   color:#585858; 
+}
+
+.aboutPresident .col-md-6{
+    margin-bottom:10px;
+}
+
+.aboutPresident .inner{
+    height: 360px;
+}
+
+.p-0{
+    background:#fff;
+}
+
+section{
+    background: #fff;
+    margin-top:50px;
+}
+
+.modal-body h6{
+    text-transform:none !important;
+}
+
+.TextColor{
+    color:red;
+}
+
+
+.modal {
+    top: 65px !important;
+}
+
+@media (min-width:1025px ){
+    .modal-dialog {
+        max-width: 590px;
+    }
+}
+.modal-dialog .modal-content{
+    padding:20px;
+}
+
+.modal-header{
+    border-bottom:none !important;
+}
+
+.modal-body .card{
+    background: #fff !important;
+}
+
+.modal-body li, .modal-body li a{
+    font-size:14px !important;
+}
+
+@media (max-width: 991px){
+    .navbar:not(.top-nav-collapse) {
+        background: unset !important;
+    }
+}
+
+.nav-item img{
+    margin-left:18px;
+}
